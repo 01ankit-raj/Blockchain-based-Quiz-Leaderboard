@@ -55,7 +55,7 @@ const QUIZ_QUESTIONS = [
   }
 ];
 
-const CONTRACT_ADDRESS = "0xe951aac52d1581381c4428d16d4e4146b635630dc1c05d2ff40d987539da4488";
+const CONTRACT_ADDRESS = "0x1";
 
 export default function QuizLeaderboardApp() {
   const [walletConnected, setWalletConnected] = useState(false);
@@ -529,4 +529,5 @@ export default function QuizLeaderboardApp() {
       </main>
     </div>
   );
+
 }
